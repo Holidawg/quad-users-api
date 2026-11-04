@@ -14,7 +14,7 @@ const pool = new Pool({
     rejectUnauthorized: false
   }
 });
-
+// THIS IS THE API ENDPOINT
 // GET /users - retrieve all users
 app.get("/users", async (req, res) => {
   try {
